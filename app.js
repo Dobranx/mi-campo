@@ -57,14 +57,17 @@
             season: 'Cosecha: Sep — Nov (primavera-verano)',
             factors: 'Lluvias, demanda estacional, costos de transporte',
             data: [
-                { fecha: '2026-05-04', precio: 1500.0 }, { fecha: '2026-05-05', precio: 1500.0 },
-                { fecha: '2026-05-06', precio: 1550.0 }, { fecha: '2026-05-07', precio: 1550.0 },
-                { fecha: '2026-05-08', precio: 1550.0 }, { fecha: '2026-05-11', precio: 1600.0 },
-                { fecha: '2026-05-12', precio: 1600.0 }, { fecha: '2026-05-13', precio: 1600.0 },
-                { fecha: '2026-05-14', precio: 1650.0 }, { fecha: '2026-05-15', precio: 1650.0 },
-                { fecha: '2026-05-18', precio: 1600.0 }, { fecha: '2026-05-19', precio: 1600.0 },
-                { fecha: '2026-05-20', precio: 1550.0 }, { fecha: '2026-05-21', precio: 1550.0 },
-                { fecha: '2026-05-22', precio: 1500.0 }, { fecha: '2026-05-25', precio: 1500.0 }
+                { fecha: '2026-05-11', precio: 1550.0 }, { fecha: '2026-05-12', precio: 1550.0 },
+                { fecha: '2026-05-13', precio: 1550.0 }, { fecha: '2026-05-14', precio: 1580.0 },
+                { fecha: '2026-05-15', precio: 1580.0 }, { fecha: '2026-05-18', precio: 1580.0 },
+                { fecha: '2026-05-19', precio: 1600.0 }, { fecha: '2026-05-20', precio: 1600.0 },
+                { fecha: '2026-05-21', precio: 1600.0 }, { fecha: '2026-05-22', precio: 1620.0 },
+                { fecha: '2026-05-25', precio: 1620.0 }, { fecha: '2026-05-26', precio: 1620.0 },
+                { fecha: '2026-05-27', precio: 1630.0 }, { fecha: '2026-05-28', precio: 1630.0 },
+                { fecha: '2026-05-29', precio: 1640.0 }, { fecha: '2026-06-01', precio: 1640.0 },
+                { fecha: '2026-06-02', precio: 1650.0 }, { fecha: '2026-06-03', precio: 1650.0 },
+                { fecha: '2026-06-04', precio: 1650.0 }, { fecha: '2026-06-05', precio: 1660.0 },
+                { fecha: '2026-06-08', precio: 1660.0 }, { fecha: '2026-06-09', precio: 1670.0 }
             ]
         },
         {
@@ -81,16 +84,17 @@
             season: 'Producción todo el año (invernadero)',
             factors: 'Clima, exportación a EE.UU., plagas, temporada de lluvias',
             data: [
-                { fecha: '2026-04-01', precio: 262.50 }, { fecha: '2026-04-06', precio: 245.00 },
-                { fecha: '2026-04-07', precio: 250.81 }, { fecha: '2026-04-08', precio: 262.50 },
-                { fecha: '2026-04-09', precio: 262.50 }, { fecha: '2026-04-10', precio: 262.50 },
-                { fecha: '2026-04-13', precio: 262.50 }, { fecha: '2026-04-14', precio: 262.50 },
-                { fecha: '2026-04-15', precio: 262.50 }, { fecha: '2026-04-16', precio: 262.50 },
-                { fecha: '2026-04-17', precio: 320.81 }, { fecha: '2026-04-20', precio: 402.50 },
-                { fecha: '2026-04-21', precio: 402.50 }, { fecha: '2026-04-22', precio: 408.31 },
-                { fecha: '2026-04-23', precio: 402.50 }, { fecha: '2026-04-24', precio: 379.19 },
-                { fecha: '2026-04-27', precio: 326.69 }, { fecha: '2026-04-28', precio: 326.69 },
-                { fecha: '2026-04-29', precio: 379.19 }
+                { fecha: '2026-05-11', precio: 320.00 }, { fecha: '2026-05-12', precio: 310.00 },
+                { fecha: '2026-05-13', precio: 315.00 }, { fecha: '2026-05-14', precio: 320.00 },
+                { fecha: '2026-05-15', precio: 325.00 }, { fecha: '2026-05-18', precio: 300.00 },
+                { fecha: '2026-05-19', precio: 295.00 }, { fecha: '2026-05-20', precio: 290.00 },
+                { fecha: '2026-05-21', precio: 285.00 }, { fecha: '2026-05-22', precio: 280.00 },
+                { fecha: '2026-05-25', precio: 275.00 }, { fecha: '2026-05-26', precio: 270.00 },
+                { fecha: '2026-05-27', precio: 265.00 }, { fecha: '2026-05-28', precio: 260.00 },
+                { fecha: '2026-05-29', precio: 255.00 }, { fecha: '2026-06-01', precio: 250.00 },
+                { fecha: '2026-06-02', precio: 245.00 }, { fecha: '2026-06-03', precio: 240.00 },
+                { fecha: '2026-06-04', precio: 235.00 }, { fecha: '2026-06-05', precio: 240.00 },
+                { fecha: '2026-06-08', precio: 245.00 }, { fecha: '2026-06-09', precio: 252.00 }
             ]
         },
         {
@@ -99,7 +103,7 @@
             icon: 'img/maiz.png',
             unit: 'Bulto 50 kg',
             color: '#F59E0B',
-            chainOrigin: 340,
+            chainOrigin: 360,
             chainWholesale: null,
             chainRetailPerKg: 12,
             description: 'Base de la alimentación mexicana. El maíz blanco se destina principalmente a tortilla y masa.',
@@ -107,14 +111,17 @@
             season: 'Cosecha PV: Nov — Ene; OI: May — Jul',
             factors: 'Política de precios de garantía, tipo de cambio, importaciones',
             data: [
-                { fecha: '2026-05-04', precio: 410.0 }, { fecha: '2026-05-05', precio: 410.0 },
-                { fecha: '2026-05-06', precio: 415.0 }, { fecha: '2026-05-07', precio: 415.0 },
-                { fecha: '2026-05-08', precio: 415.0 }, { fecha: '2026-05-11', precio: 420.0 },
-                { fecha: '2026-05-12', precio: 420.0 }, { fecha: '2026-05-13', precio: 420.0 },
-                { fecha: '2026-05-14', precio: 425.0 }, { fecha: '2026-05-15', precio: 425.0 },
-                { fecha: '2026-05-18', precio: 430.0 }, { fecha: '2026-05-19', precio: 430.0 },
-                { fecha: '2026-05-20', precio: 430.0 }, { fecha: '2026-05-21', precio: 425.0 },
-                { fecha: '2026-05-22', precio: 425.0 }, { fecha: '2026-05-25', precio: 420.0 }
+                { fecha: '2026-05-11', precio: 470.0 }, { fecha: '2026-05-12', precio: 470.0 },
+                { fecha: '2026-05-13', precio: 475.0 }, { fecha: '2026-05-14', precio: 475.0 },
+                { fecha: '2026-05-15', precio: 475.0 }, { fecha: '2026-05-18', precio: 475.0 },
+                { fecha: '2026-05-19', precio: 475.0 }, { fecha: '2026-05-20', precio: 475.0 },
+                { fecha: '2026-05-21', precio: 475.0 }, { fecha: '2026-05-22', precio: 475.0 },
+                { fecha: '2026-05-25', precio: 475.0 }, { fecha: '2026-05-26', precio: 475.0 },
+                { fecha: '2026-05-27', precio: 475.0 }, { fecha: '2026-05-28', precio: 480.0 },
+                { fecha: '2026-05-29', precio: 480.0 }, { fecha: '2026-06-01', precio: 480.0 },
+                { fecha: '2026-06-02', precio: 480.0 }, { fecha: '2026-06-03', precio: 480.0 },
+                { fecha: '2026-06-04', precio: 480.0 }, { fecha: '2026-06-05', precio: 485.0 },
+                { fecha: '2026-06-08', precio: 485.0 }, { fecha: '2026-06-09', precio: 485.0 }
             ]
         },
         {
@@ -133,15 +140,19 @@
             season: 'Todo el año (pico: Feb, May, Nov)',
             factors: 'Fechas festivas (14 Feb, 10 May), exportación, clima heladas',
             data: [
-                { fecha: '2026-04-01', precio: 1300.0 }, { fecha: '2026-04-06', precio: 1250.0 },
-                { fecha: '2026-04-07', precio: 1250.0 }, { fecha: '2026-04-08', precio: 1200.0 },
-                { fecha: '2026-04-09', precio: 1200.0 }, { fecha: '2026-04-10', precio: 1100.0 },
-                { fecha: '2026-04-13', precio: 1200.0 }, { fecha: '2026-04-14', precio: 900.0 },
-                { fecha: '2026-04-15', precio: 800.0 }, { fecha: '2026-04-16', precio: 800.0 },
-                { fecha: '2026-04-17', precio: 750.0 }, { fecha: '2026-04-20', precio: 700.0 },
-                { fecha: '2026-04-21', precio: 800.0 }, { fecha: '2026-04-22', precio: 900.0 },
-                { fecha: '2026-04-23', precio: 800.0 }, { fecha: '2026-04-24', precio: 750.0 },
-                { fecha: '2026-04-27', precio: 800.0 }, { fecha: '2026-04-28', precio: 750.0 }
+                { fecha: '2026-05-04', precio: 900.0 }, { fecha: '2026-05-06', precio: 1100.0 },
+                { fecha: '2026-05-07', precio: 1000.0 }, { fecha: '2026-05-08', precio: 1100.0 },
+                { fecha: '2026-05-11', precio: 1000.0 }, { fecha: '2026-05-12', precio: 1000.0 },
+                { fecha: '2026-05-13', precio: 1000.0 }, { fecha: '2026-05-14', precio: 800.0 },
+                { fecha: '2026-05-15', precio: 750.0 }, { fecha: '2026-05-18', precio: 700.0 },
+                { fecha: '2026-05-19', precio: 450.0 }, { fecha: '2026-05-20', precio: 450.0 },
+                { fecha: '2026-05-21', precio: 400.0 }, { fecha: '2026-05-22', precio: 400.0 },
+                { fecha: '2026-05-25', precio: 450.0 }, { fecha: '2026-05-26', precio: 500.0 },
+                { fecha: '2026-05-27', precio: 550.0 }, { fecha: '2026-05-28', precio: 450.0 },
+                { fecha: '2026-05-29', precio: 400.0 }, { fecha: '2026-06-01', precio: 400.0 },
+                { fecha: '2026-06-02', precio: 400.0 }, { fecha: '2026-06-03', precio: 450.0 },
+                { fecha: '2026-06-04', precio: 550.0 }, { fecha: '2026-06-05', precio: 600.0 },
+                { fecha: '2026-06-08', precio: 700.0 }, { fecha: '2026-06-09', precio: 700.0 }
             ]
         }
     ];
@@ -193,7 +204,7 @@
     }
 
     function simulateAmaranto() {
-        const days = getBusinessDays('2021-01-01', '2026-06-04');
+        const days = getBusinessDays('2021-01-01', '2026-06-09');
         const N = days.length;
         const S0 = 20000, mu = 0.045, sigma = 0.12, dt = 1 / 252;
         const rng = mulberry32(42);
@@ -284,9 +295,9 @@
     // Generate amaranto data and attach to product
     PRODUCTS[0].data = simulateAmaranto();
 
-    // Extend other products data to today (2026-06-04)
+    // Extend other products data to today (2026-06-09)
     PRODUCTS.slice(1).forEach(p => {
-        extendProductData(p, '2026-06-04');
+        extendProductData(p, '2026-06-09');
     });
 
     // Set chainWholesale from latest price for each product
