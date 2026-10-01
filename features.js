@@ -435,6 +435,32 @@
             vaRawPrice: '$11.80 MXN (Equivalente pétalos)',
             vaIncrementPct: 2600,
             vaAnalysisDesc: 'El aceite esencial es el subproducto de mayor valor añadido, multiplicando el retorno de la materia prima por aproximadamente 27 veces. Aunque requiere un gran volumen de pétalos para su extracción, un frasco gotero de 10ml se vende a $320 MXN, alcanzando un incremento de rentabilidad neta del 2600%.'
+        },
+        {
+            id: 16, name: 'Papa Blanca Alpha', category: 'Hortalizas', icon: 'img/papa.png',
+            imgBg: 'linear-gradient(135deg, #FEF3C7, #D97706)',
+            price: 1750, unit: 'Arpilla 50 kg', minOrderVal: 2, minOrderText: '2 arpillas', available: 60,
+            seller: { name: 'José Luis Morales', location: 'Los Mochis, Sinaloa', avatar: '👨‍🌾', rating: 4.8, reviews: 38, totalSales: 210, memberSince: '2023' },
+            verified: true, organic: false, harvestDate: '2026-05-20',
+            originCoords: [25.7904, -108.9917],
+            description: 'Papa blanca variedad Alpha de primera calidad. Lavada, firme, libre de plagas. Ideal para freír, restaurantes y centrales de abasto (Datos SNIIM).',
+            specs: { Variedad: 'Alpha', Calidad: 'Primera', Empaque: 'Arpilla 50 kg', Calibre: 'Grande' },
+            reviewsList: [
+                { author: 'Sergio M.', stars: 5, comment: 'Excelente papa Alpha, muy limpia y con excelente rendimiento para fritura.', date: '2026-05-28' }
+            ]
+        },
+        {
+            id: 17, name: 'Chile Serrano Seleccionado', category: 'Hortalizas', icon: 'img/chile.png',
+            imgBg: 'linear-gradient(135deg, #DCFCE7, #16A34A)',
+            price: 330, unit: 'Arpilla 30 kg', minOrderVal: 5, minOrderText: '5 arpillas', available: 40,
+            seller: { name: 'Gonzalo Ramírez', location: 'Rioverde, San Luis Potosí', avatar: '👨‍🌾', rating: 4.7, reviews: 29, totalSales: 165, memberSince: '2024' },
+            verified: true, organic: false, harvestDate: '2026-05-25',
+            originCoords: [21.9324, -99.9984],
+            description: 'Chile serrano verde de primera calidad. Firme, picor intenso y uniforme. Cosecha fresca con datos de mercado SNIIM.',
+            specs: { Tipo: 'Serrano Verde', Calidad: 'Primera', Empaque: 'Arpilla 30 kg', Picor: 'Alto' },
+            reviewsList: [
+                { author: 'Ignacio R.', stars: 5, comment: 'Chile serrano fresco de excelente color y picor.', date: '2026-06-01' }
+            ]
         }
     ];
 
